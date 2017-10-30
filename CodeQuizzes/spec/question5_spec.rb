@@ -1,4 +1,4 @@
-# spec/question4_spec.rb
+# spec/question5_spec.rb
 require 'question5'
 
 describe Question do
