@@ -41,5 +41,23 @@ describe Raindrops do
     it 'test_the_sound_for_27_is_pling_as_it_has_a_factor_3' do
       expect(Raindrops.convert(27)).to eq 'Pling'
     end
+    it 'test_the_sound_for_35_is_plangplong_as_it_has_factors_5_and_7' do
+      expect(Raindrops.convert(35)).to eq 'PlangPlong'
+    end
+    it 'test_the_sound_for_49_is_plong_as_it_has_a_factor_7' do
+      expect(Raindrops.convert(49)).to eq 'Plong'
+    end
+    it 'test_the_sound_for_52_is_52' do
+      expect(Raindrops.convert(52)).to eq '52'
+    end
+    it 'test_the_sound_for_105_is_plingplangplong_as_it_has_factors_3_5_and_7' do
+      expect(Raindrops.convert(105)).to eq 'PlingPlangPlong'
+    end
+    it 'test_the_sound_for_3125_is_plang_as_it_has_a_factor_5' do
+      expect(Raindrops.convert(3125)).to eq 'Plang'
+    end
+    it 'tests_bookkeeping' do
+      expect(BookKeeping::VERSION).to eq 3
+    end
   end
 end
