@@ -82,5 +82,25 @@ describe Bob do
       remark = "\t\t\t\t\t\t\t\t\t\t"
       expect(Bob.hey(remark)).to eq 'Fine. Be that way!'
     end
+    it 'test_multiple_line_question' do
+      remark = "\nDoes this cryogenic chamber make me look fat?\nno"
+      expect(Bob.hey(remark)).to eq 'Whatever.'
+    end
+    it 'test_starting_with_whitespace' do
+      remark = '         hmmmmmmm...'
+      expect(Bob.hey(remark)).to eq 'Whatever.'
+    end
+    it 'test_ending_with_whitespace' do
+      remark = 'Okay if like my  spacebar  quite a bit?   '
+      expect(Bob.hey(remark)).to eq 'Sure.'
+    end
+    it 'test_other_whitespace' do
+      remark = "\n\r \t"
+      expect(Bob.hey(remark)).to eq 'Fine. Be that way!'
+    end
+    it 'test_non_question_ending_with_whitespace' do
+      remark = 'This is a statement ending with whitespace      '
+      expect(Bob.hey(remark)).to eq 'Whatever.'
+    end
   end
 end
