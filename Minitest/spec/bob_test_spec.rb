@@ -62,5 +62,25 @@ describe Bob do
       remark = 'Ending with ? means a question.'
       expect(Bob.hey(remark)).to eq 'Whatever.'
     end
+    it 'test_non_letters_with_question' do
+      remark = ':) ?'
+      expect(Bob.hey(remark)).to eq 'Sure.'
+    end
+    it 'test_prattling_on' do
+      remark = 'Wait! Hang on. Are you going to be OK?'
+      expect(Bob.hey(remark)).to eq 'Sure.'
+    end
+    it 'test_silence' do
+      remark = ''
+      expect(Bob.hey(remark)).to eq 'Fine. Be that way!'
+    end
+    it 'test_prolonged_silence' do
+      remark = '        '
+      expect(Bob.hey(remark)).to eq 'Fine. Be that way!'
+    end
+    it 'test_alternate_silence' do
+      remark = "\t\t\t\t\t\t\t\t\t\t"
+      expect(Bob.hey(remark)).to eq 'Fine. Be that way!'
+    end
   end
 end
