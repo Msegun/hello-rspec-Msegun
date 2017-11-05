@@ -14,5 +14,8 @@ describe Gigasecond do
     it 'test_full_time_specified' do
       expect(Gigasecond.from(Time.utc(2015, 1, 24, 22, 0, 0))).to eq Time.utc(2046, 10, 2, 23, 46, 40)
     end
+    it 'test_full_time_with_day_roll_over' do
+      expect(Gigasecond.from(Time.utc(2015, 1, 24, 23, 59, 59))).to eq Time.utc(2046, 10, 3, 1, 46, 39)
+    end
   end
 end
