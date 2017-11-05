@@ -38,5 +38,17 @@ describe Bob do
       remark = 'WHAT THE HELL WERE YOU THINKING?'
       expect(Bob.hey(remark)).to eq 'Whoa, chill out!'
     end
+    it 'test_shouting_numbers' do
+      remark = '1, 2, 3 GO!'
+      expect(Bob.hey(remark)).to eq 'Whoa, chill out!'
+    end
+    it 'test_only_numbers' do
+      remark = '1, 2, 3'
+      expect(Bob.hey(remark)).to eq 'Whatever.'
+    end
+    it 'test_question_with_only_numbers' do
+      remark = '4?'
+      expect(Bob.hey(remark)).to eq 'Sure.'
+    end
   end
 end
