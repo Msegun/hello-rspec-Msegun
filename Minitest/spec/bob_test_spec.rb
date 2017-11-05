@@ -50,5 +50,17 @@ describe Bob do
       remark = '4?'
       expect(Bob.hey(remark)).to eq 'Sure.'
     end
+    it 'test_shouting_with_special_characters' do
+      remark = 'ZOMG THE %^*@\#$(*^ ZOMBIES ARE COMING!!11!!1!'
+      expect(Bob.hey(remark)).to eq 'Whoa, chill out!'
+    end
+    it 'test_shouting_with_no_exclamation_mark' do
+      remark = 'I HATE YOU'
+      expect(Bob.hey(remark)).to eq 'Whoa, chill out!'
+    end
+    it 'test_statement_containing_question_mark' do
+      remark = 'Ending with ? means a question.'
+      expect(Bob.hey(remark)).to eq 'Whatever.'
+    end
   end
 end
