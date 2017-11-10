@@ -4,3 +4,4 @@ rvm:
 script:
   - bundle exec rspec Minitest
   - bundle exec rspec CodeQuizzes
+  - bundle exec rspec ProjectQsort
