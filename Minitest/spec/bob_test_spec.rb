@@ -1,4 +1,4 @@
-require 'bob'
+require_relative '../lib/bob'
 
 describe Bob do
   describe '#hey' do

@@ -1,4 +1,4 @@
-require 'raindrops'
+require_relative '../lib/raindrops'
 
 describe Raindrops do
   describe '#convert' do

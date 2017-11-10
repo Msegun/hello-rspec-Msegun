@@ -1,4 +1,4 @@
-require 'gigasecond'
+require_relative '../lib/gigasecond'
 
 describe Gigasecond do
   describe '#convert' do
