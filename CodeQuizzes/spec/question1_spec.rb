@@ -1,5 +1,6 @@
 # spec/question1_spec.rb
-require 'question1'
+require_relative '../lib/question1'
+
 
 describe Question do
 

@@ -1,4 +1,4 @@
-require 'question8'
+require_relative '../lib/question8'
 
 describe "#delete_last" do
   it "removes last n elements from string" do

@@ -1,4 +1,4 @@
-require 'question13'
+require_relative '../lib/question13'
 class String
 def alliteration?
   letter = self[0]

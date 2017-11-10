@@ -1,5 +1,5 @@
 # spec/question2_spec.rb
-require 'question2'
+require_relative '../lib/question2'
 
 describe Question do
   describe "#average_word_length" do

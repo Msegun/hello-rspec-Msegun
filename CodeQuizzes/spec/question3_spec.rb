@@ -1,5 +1,5 @@
 # spec/question3_spec.rb
-require 'question3'
+require_relative '../lib/question3'
 
 describe "#palindrome?" do
   it "returns true if string is a palindrome" do

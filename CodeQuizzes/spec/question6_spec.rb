@@ -1,5 +1,5 @@
 # spec/question6_spec.rb
-require 'question6'
+require_relative '../lib/question6'
 
 describe String do
   describe "#strip_whitespace" do

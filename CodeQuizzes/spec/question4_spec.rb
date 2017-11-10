@@ -1,5 +1,5 @@
 # spec/question4_spec.rb
-require 'question4'
+require_relative '../lib/question4'
 
 describe Question do
   describe "#vowels" do

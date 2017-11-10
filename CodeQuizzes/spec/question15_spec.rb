@@ -1,4 +1,4 @@
-require 'question15'
+require_relative '../lib/question15'
 
 describe "#concat" do
   it "concatenates two integers" do

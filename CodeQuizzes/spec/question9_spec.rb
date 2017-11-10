@@ -1,4 +1,4 @@
-require 'question9'
+require_relative '../lib/question9'
 
 describe "#date_convertible?" do
   it "returns true if can be converted to date" do

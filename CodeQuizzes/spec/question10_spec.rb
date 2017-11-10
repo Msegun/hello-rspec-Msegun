@@ -1,4 +1,4 @@
-require 'question10'
+require_relative '../lib/question10'
 
 describe "#parse_params" do
   it "converts url query parameters to a Hash" do

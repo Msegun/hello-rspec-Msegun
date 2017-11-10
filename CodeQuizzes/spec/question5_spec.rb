@@ -1,5 +1,5 @@
 # spec/question5_spec.rb
-require 'question5'
+require_relative '../lib/question5'
 
 describe Question do
   describe "#start_with_c?" do

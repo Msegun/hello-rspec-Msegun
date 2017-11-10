@@ -1,4 +1,4 @@
-require 'question7'
+require_relative '../lib/question7'
 
 describe "#titlecase" do
   it "capitalizes the first letter of every word" do
