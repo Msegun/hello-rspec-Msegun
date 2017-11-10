@@ -1,4 +1,4 @@
-require_relative '../lib/question12'
+require_relative '../lib/questionTwelve'
 
 describe "#alliteration?" do
   it "returns true if words start with same letter" do

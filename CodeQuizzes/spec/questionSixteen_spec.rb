@@ -1,4 +1,4 @@
-require_relative '../lib/question16'
+require_relative '../lib/questionSixteen'
 
 describe "#insert_multiple" do
   it "inserts multiple strings" do

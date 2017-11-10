@@ -1,4 +1,4 @@
-require_relative '../lib/question14'
+require_relative '../lib/questionFourteen'
 
 describe "#numeric?" do
   it "returns true if string can be converted to Float" do

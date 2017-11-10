@@ -1,4 +1,4 @@
-require_relative '../lib/question11'
+require_relative '../lib/questionEleven'
 
 describe "#acronym?" do
   it "returns true if word is an acronym" do
