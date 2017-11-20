@@ -6,6 +6,6 @@ QsortProject
 [QsortProject with tests](ProjectQsort/)
 
 ## Code bunny protects this code
-  '(\(\
-  (-.-)
-  o_(")(")' 
+(\ (\   
+  (-.-)  
+  o_(")(")
