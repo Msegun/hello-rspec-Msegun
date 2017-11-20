@@ -8,3 +8,7 @@ Style/TrailingWhitespace :
 Metrics/AbcSize :
   Description: 'Assignment Branch Condition size for %s is too high. [%.4g/%.4g]'
   Enabled: false
+
+Style/For :
+  Description: 'Prefer `each` over `for`. (Style/For)'
+  Enabled: false
