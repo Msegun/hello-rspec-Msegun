@@ -36,3 +36,8 @@ class Quicksort
     end
   end
 end
+
+#     ()()
+#    (*.*)
+#   ("__")
+# Code bunny protects this code

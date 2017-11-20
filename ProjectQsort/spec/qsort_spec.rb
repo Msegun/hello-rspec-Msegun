@@ -34,3 +34,8 @@ describe Quicksort do
     expect(Quicksort.sorted?(array)).to eq true
   end
 end
+
+#     ()()
+#    (*.*)
+#   ("__")
+# Code bunny protects this code
