@@ -1,4 +1,4 @@
-# Krzysztof Borawski Quicksort ruby implementation
+# Krzysztof Borawski 238152 Quicksort ruby implementation
 class Quicksort
   def self.quicksort(array, left, right)
     if left < right
@@ -9,6 +9,7 @@ class Quicksort
     end
     array
   end
+
   def self.partition(array, left, right, pivot_i)
     pivot_value = array[pivot_i]
     array[pivot_i], array[right] = array[right], array[pivot_i]
@@ -20,6 +21,18 @@ class Quicksort
       end
     end
     array[store_i], array[right] = array[right], array[store_i]
-    return store_i
+    store_i
+  end
+
+  def self.less?(l, r)
+    l < r
+  end
+
+  def self.sorted?(array)
+    for i in 1...array.length
+      return false if less?(array[i], array[i - 1])
+
+      return true
+    end
   end
 end

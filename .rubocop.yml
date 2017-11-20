@@ -1,0 +1,10 @@
+Metrics/MethodLength:
+  Max: 100
+
+Style/TrailingWhitespace :
+  Description: 'Trailing whitespace detected. (Layout/TrailingWhitespace)'
+  Enabled: false
+
+Metrics/AbcSize :
+  Description: 'Assignment Branch Condition size for %s is too high. [%.4g/%.4g]'
+  Enabled: false
