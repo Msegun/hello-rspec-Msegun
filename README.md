@@ -1,10 +1,10 @@
 # hello-rspec-Msegun
-
+# Code bunny protects this code
      ()()
     (*.*)
    ("__")
-#Code bunny protects this code
 
 ## Travis CI
 [![Build Status](https://travis-ci.org/my-rspec/hello-rspec-Msegun.svg?branch=master)](https://travis-ci.org/my-rspec/hello-rspec-Msegun)
-[QsortProject with tests](ProjectQsort/lib/qsort.rb)
+##QsortProject
+[QsortProject with tests](ProjectQsort/)
