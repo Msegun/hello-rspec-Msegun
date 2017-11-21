@@ -1,8 +1,9 @@
 # hello-rspec-Msegun
  :rabbit: :rabbit: :rabbit: :rabbit: :rabbit: :rabbit:
+ 
  Student: Krzysztof Borawski
  
- Profesotr: Włodzimierz Bzyl
+ Profesor: Włodzimierz Bzyl
 ## Travis CI
 [![Build Status](https://travis-ci.org/my-rspec/hello-rspec-Msegun.svg?branch=master)](https://travis-ci.org/my-rspec/hello-rspec-Msegun)
 
